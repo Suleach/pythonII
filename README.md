@@ -5,3 +5,4 @@ Basic git commands:
 3. git add <- add files to commit (package, box)
 4. git push <- send the "box" to the server
 
+More simpe is to download GitHub desktop
