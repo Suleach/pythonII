@@ -48,9 +48,7 @@ class matrix():
 
 
     def __str__(self):
-        for i in range(self.row):
-            print(self.arr[i])
-        return str(self.arr)
+        return '\n'.join([f'{i}' for i in self.arr])
 
 a = matrix([[1,2],
             [3,4]])
