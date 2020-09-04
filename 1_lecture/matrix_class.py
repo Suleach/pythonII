@@ -31,16 +31,16 @@ class matrix():
 
     def __mul__(self, other):
         c=[]
-        for i in range(len(self.arr)):
+        for i in range(self.row):
             another_line = []
-            for j in range(len(other.arr[0])):
+            for j in range(other.col):
                 another_line.append(0)
             c.append(another_line)
 
-        for w in range(len(self.arr)):
-            for j in range(len(other.arr[0])):
+        for w in range(self.row):
+            for j in range(other.col):
                 s = 0
-                for i in range(len(other.arr)):
+                for i in range(other.row):
                     s += self.arr[w][i] * other.arr[i][j]
                 c[w][j] = s
         c = matrix(c)
