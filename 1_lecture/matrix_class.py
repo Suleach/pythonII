@@ -48,6 +48,8 @@ class matrix():
 
 
     def __str__(self):
+        for i in range(self.row):
+            print(self.arr[i])
         return str(self.arr)
 
 a = matrix([[1,2],
