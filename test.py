@@ -1,3 +1,2 @@
-import numpy as np
-a = np.array([1,2])
-print(a+a) 
+import random
+print(random.randint(0,5))
