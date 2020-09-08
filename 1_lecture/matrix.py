@@ -33,3 +33,4 @@ for w in range(len(a)):
 
 for i in range(len(c)):
     print(c[i])
+#simple
