@@ -23,7 +23,6 @@ while not game_over:
         if user_guess in it_was:
             print(f'Word {user_guess} was try another')
             continue
-
         for i in range(len(the_word)):
             if the_word[i] == user_guess:
                 board[i] = user_guess
