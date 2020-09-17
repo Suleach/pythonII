@@ -18,6 +18,7 @@ def decode(text):
     return decode
 
 text = str(input("Enter text: "))
+text = text.lower()
 
 if text[0] in alpha_rus:
     right = decode(text)
