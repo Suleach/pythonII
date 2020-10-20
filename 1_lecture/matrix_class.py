@@ -50,7 +50,6 @@ class matrix():
     def __str__(self):
         return '\n'.join([f'{i}' for i in self.arr])
 
-a = matrix([[1,2],
-            [3,4]])
+f = open("matrices.txt", "r")
 
-print(a*a)
+print(f.read())
